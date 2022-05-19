@@ -5,9 +5,9 @@
 class cl_app : public cl_base
 {
 
-	cl_base* p_predok;
-	cl_base* p_spinogriz = new cl_base();
-	cl_base* p_koren;
+	cl_base* p_predok; // < удоли
+	cl_base* p_spinogriz = new cl_base(); // удоли
+	cl_base* p_koren; // ??? удоли
 public:
 	cl_app(cl_base* x);
 	void derevo();
