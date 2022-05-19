@@ -17,7 +17,7 @@ public:
 	void print_hierarchy();
 
 	std::vector<cl_base*> spinogrizi;
-	std::vector<cl_base*> ::iterator it_spinogriz;
+	std::vector<cl_base*> ::iterator it_spinogriz; // удоли. Не надо это хранить в объекте. Там где тебе надо итерировать, создай временную переменную с итератором
 };
 #endif
 
